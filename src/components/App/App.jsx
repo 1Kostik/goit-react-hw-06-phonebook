@@ -8,8 +8,6 @@ import { setContactFilter } from '../../redux/filterSlice';
 import { addContact, deleteContact } from '../../redux/contactsSlice';
 import { getContactFilter, getContacts } from '../../redux/selectors';
 
-
-
 export function App() {
   const dispatch = useDispatch();
   const contacts = useSelector(getContacts);
